@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.upper{
+    display:flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color:white;
+    padding: 18px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.introduction{
+    display:flex;
+    justify-content: center;
+}
+
+.middle{
+    color: #1F2937;
+
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info{
+    max-width: 200px;
+    text-align: center;
+}
+
+.container{
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quote{
+    max-width: 700px;;
+}
+
+.quoter{
+    font-size: 24px;
+    padding: 8px;
+}
+
+.banner{
+    background-color: rgb(90, 120, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.clickme{
+    max-width: 200px;
+}
+
+p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    max-width: 400px;
+}
+
+.Youtube-link{
+    padding: 4px 16px;
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+}
+
+h1{
+    margin-bottom: 0px;
+    max-width: 300px;
+}
+
+h2{
+    text-align: center;
+}
+
+.links{
+    display:flex;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    gap:  16px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
